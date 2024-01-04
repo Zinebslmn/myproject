@@ -1,8 +1,8 @@
 /* colors */
 :root{
-    --brown: #eb7d39;
+    --brown: #4b39eb;
     --white: #FFF1EF;
-    --red: #A40000;
+    --red: #f70202;
     --gold: #FFD500;
     --skin: #FFE9A8;
     --grey: #CFC4C2;
@@ -86,4 +86,9 @@
     background-image: conic-gradient( var(--clr1) 90deg , var(--clr2) 0 180deg , var(--clr3) 0 270deg, var(--clr4) 0 360deg);
     background-size: var(--pixel-size) var(--pixel-size);
     box-shadow: 0 0 5vmin 0 black, 0 0 50vmax 0 rgb(255 255 255 / .8);
+  }
+
+  h1 {
+    color: #4b39eb;
+    size: 0cap;
   }
